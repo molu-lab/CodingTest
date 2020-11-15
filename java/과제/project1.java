@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class project1 {
     public static void main(String[] arge)
     {
-        //2개의 정수를 입력받아 첫 번째 수를 두 번째 수로 나누어 떨어지는 가를 계산하는 프로그램
+        
         int num1=0;
         int num2=0;
 
