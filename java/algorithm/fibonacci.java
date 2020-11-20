@@ -1,6 +1,6 @@
 import javax.lang.model.util.ElementScanner14;
 
-public class 피보나치수열 {
+public class fibonacci {
     static int count;
     public static void main(String[] args)
     {

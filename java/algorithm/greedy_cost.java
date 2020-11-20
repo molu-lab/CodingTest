@@ -1,4 +1,4 @@
-public class 그리디동전지불 {
+public class greedy_cost {
     
     public static void main(String[] args)
     {
