@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class project3
 {
+    /*
+      두 수를 입력 받아 사각형 그리기 
+    */
     public static void print(String str)
     {
         System.out.print(str);

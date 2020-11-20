@@ -1,6 +1,12 @@
 import java.util.Scanner;
 
 public class project14 {
+    /**
+     * 사용자로부터 숫자 n을 입력받아, 다음 공식이 성립하는 k의 최대값을 계산하는 프로그
+    램을 작성해 보자. 
+    2^k<=n
+     * @param args
+     */
     public static void main(String[] args)
     {
         Scanner scan =new Scanner(System.in);

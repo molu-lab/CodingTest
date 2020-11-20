@@ -1,6 +1,15 @@
 import java.util.Scanner;
 
 public class project20 {
+    /**
+     * 사용자로부터 하나의 숫자 n을 입력받아 n x n의 길이에 해당하는 달팽이 배열을 만들
+        어 출력하는 프로그램을 작성한다. <달팽이 배열의 예>
+        1 2 3 4
+        12 13 14 5
+        11 16 15 6
+        10 9 8 7
+     * @param args
+     */
     public static void main(String[] args)
     {
         Scanner scan=new Scanner(System.in);

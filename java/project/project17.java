@@ -1,6 +1,13 @@
 import java.util.Scanner;
 
 public class project17 {
+    /*
+    회문은 앞으로 읽으나 뒤로 읽으나 차이가 없는 단어를 뜻한다. 인자로 전달되는 영단
+어가 회문인지 아닌지를 판단해서 그 결과를 출력하는 기능의 메소드를 정의하고, 적절
+한 main메소드를 정의해보자.
+
+*/
+
     public static void main(String[] args)
     {
         Scanner scan=new Scanner(System.in);

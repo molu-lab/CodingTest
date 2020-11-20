@@ -1,8 +1,10 @@
 import java.util.Scanner;
 
 public class project1 {
+    /*두 수를 비교해 나누어 떨어지는 가를 비교한다.*/
     public static void main(String[] arge)
     {
+        
         
         int num1=0;
         int num2=0;

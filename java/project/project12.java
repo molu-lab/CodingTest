@@ -1,6 +1,11 @@
 import java.util.Scanner;
 
 public class project12{
+    /**
+     * 두개의 정수를 입력받아 최대공약수(GCD)와 최소공배수(LCM)을 구하는 프로그램을 작
+    성해보자.
+     * 
+     */
     public static void main(String[] args)
     {
         Scanner scan =new Scanner(System.in);

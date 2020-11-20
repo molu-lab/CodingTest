@@ -2,6 +2,9 @@ public class project6 {
 
     public static void main(String[] args)
     {
+        /**
+         * 짝수 홀수 구분 연산
+         */
         float res=1;        
         for(float i=2;i<=100;i++)
         {

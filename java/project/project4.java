@@ -2,7 +2,9 @@ public class project4 {
     public static void main(String[] args)
     {
 
-     
+       /**
+        * 1~50 까지의수중 소수를 찾기
+        */
 
 
         int i,j;

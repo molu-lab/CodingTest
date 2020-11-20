@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
 public class project2{
-
+    /*
+        임의의 값들을 입력받아 최댓값을 출력한다.
+    */
     
     public static void main(String[] args)
     {
