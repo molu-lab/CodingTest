@@ -1,4 +1,4 @@
-public class selectsort {
+public class selectSort {
     public static void main(String[] args)
     {
         int [] num={51,20,13,24,15,26,37,48,79,101};

@@ -1,4 +1,4 @@
-public class insertsort {
+public class insertSort {
     public static void main(String[] args)
     {
         int [] num={51,20,13,24,15,26,317,48,79,101};
