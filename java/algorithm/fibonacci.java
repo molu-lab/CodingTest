@@ -4,7 +4,7 @@ public class fibonacci {
     static int count;
     public static void main(String[] args)
     {
-        fib(5);
+        System.out.println(fib(10));
     }
     public static int fib(int n)
     {
@@ -19,4 +19,5 @@ public class fibonacci {
             return (fib(n-1)+fib(n-2));
         }
     }
+
 }
