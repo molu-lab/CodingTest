@@ -9,7 +9,7 @@ public class fibonacci {
     public static int fib(int n)
     {
         System.out.println("count:"+(++count)+" fib:"+n);
-//
+
         if(n==1||n==2)
         {
             
