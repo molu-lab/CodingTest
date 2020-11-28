@@ -22,6 +22,7 @@ public class skillcheck2 {
         System.out.println("result: "+list.get(n));
 
     }
+    //%1234567
     public static List<Integer> fib(int n)
     {
         List<Integer> list =new ArrayList<Integer>();
@@ -39,5 +40,25 @@ public class skillcheck2 {
         }
         return list;
     }
+
+    //롱 타입 fib
+    public List<Long> fib_long(int n)
+    {
+        List<Long> list =new ArrayList<Long>();
+        for(int i=0;i<=n;i++)
+        {
+            if(i==0){
+                list.add(new Long(0));
+            }else if(i==2||i==1)
+            {
+                list.add(new Long(1));
+            }else{
+                list.add(new Long(list.get(i-1)+list.get(i-2)));
+
+            }
+        }
+        return list;
+    }
+
 
 }
