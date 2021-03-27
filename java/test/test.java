@@ -1,6 +1,5 @@
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
+
 enum sqlClass{
     sqlite{
         @Override
@@ -21,6 +20,15 @@ public class test {
             Class.forName(sqlClass.sqlite.toString());
 
             conn= DriverManager.getConnection("jdbc:sqlite:java/database/mysqlite.db");
+            PreparedStatement pstmt=conn.prepareStatement("select * from dept");
+            ResultSet resultSet=pstmt.executeQuery();
+            while(resultSet.next())
+            {
+                System.out.println(resultSet.getString(1));
+            }
+            resultSet.close();
+            pstmt.close();
+            conn.close();
             System.out.println("not error");
 
         }catch (SQLException throwables) {
