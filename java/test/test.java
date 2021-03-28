@@ -26,6 +26,7 @@ public class test {
             {
                 System.out.println(resultSet.getString(1));
             }
+
             resultSet.close();
             pstmt.close();
             conn.close();
